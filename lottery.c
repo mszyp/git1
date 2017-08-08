@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define LUCKY_NUMBER 7
 
 int calculate_result(int white_balls[5], int power_ball)
 {
@@ -36,7 +37,7 @@ if (argc != 7)
     }
     int result = calculate_result(white_balls, power_ball);
 
-    if (7 == power_ball)
+    if (LUCKY_NUMBER == power_ball)
     {
         result = result * 2;
     }
