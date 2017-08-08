@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#define LUCKY_NUMBER 7
+#define LUCKY_NUMBER 8
 
 int calculate_result(int white_balls[5], int power_ball)
 {
